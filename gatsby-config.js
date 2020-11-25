@@ -6,6 +6,14 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+      `gatsby-plugin-styled-components`,
+      {
+        resolve: `gatsby-plugin-typography`,
+          options: {
+            pathToConfigModule: `src/utils/typography`,
+        }
+      }
+  ],
   pathPrefix: "/gatsbyproject",
 } 

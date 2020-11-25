@@ -1,5 +1,5 @@
 html {
-    background-color: lavenderblush;
+    /*background-color: lavenderblush;*/
   }
 ul { 
     padding: 0px;
@@ -8,7 +8,7 @@ ul {
  li {
     float: left;
     width: auto;
-    padding-left: 10px;
+    padding-left: 10px !important;
     list-style: outside none none;
     text-align: center;
     margin-bottom: 20px;;
